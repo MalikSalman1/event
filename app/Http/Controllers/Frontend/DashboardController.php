@@ -12,6 +12,7 @@ class DashboardController extends Controller
 {
     public function index(){
         // count the tenants from database
+        // hello my name is Salman
         $tenants = Tenants::count();
         $house_owners= house_owners::count();
         // compact the tenants
